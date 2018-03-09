@@ -8,34 +8,75 @@
 		p.a{
     		font: 25px arial, sans-serif;
 		}    
+		p.b{
+			font-size: 25px; color: blue;
+		}
+		p.c{
+			font-size: 25px; color: red;
+		}
+
     	img{ padding: 5%; margin: 0; }
 	</style>
 
 </head>
 <body>
 	
+	<h1>
+		This is a webpage verifying <b>Monty Hall problem</b>, that is:<br> 
+	</h1>
 	<p class="a">
-	This is a webpage verifying <b>Monty Hall problem</b>, that is:<br> 
-	assume that you are in a reality show,<br> 
-	and there are three doors in front of you.<br> 
-	Behind the doors are a car and two goats unoderedly.<br>
-	You can go home with the one behind the door you choose.<br><br>
-	after you randomly choose, the host of the reality show would open a door with a goat behind it, <br>
-	and then ask you if you would like to switch your choice,<br>  
-
-
+		assume that you are in a reality show,<br> 
+		and there are three doors in front of you.<br> 
+		Behind the doors are a car and two goats unoderedly.<br>
+		You can go home with the one behind the door you choose.<br><br>
+		after you randomly choose, the host of the reality show would open a door with a goat behind it, <br>
+		and then ask you if you would like to switch your choice,<br><br>  
+		<span style="color:brown">your strategy can be either </span> <br>
 	</p>
+		
+	<p class="b">
+		1.Not Switch your choice.<br>
+		or<br>
+		2.Switch your choice. <br>
+	</p>	
+	
+	<p class = "a">
+	You can play multiple times, and the statistics will be recorded below
+	</p>	
 
 
-	<img src="./doorclose.jpeg" alt="closed door" id="door1"> 
-	<img src="./doorclose.jpeg" alt="closed door" id="door2"> 
-	<img src="./doorclose.jpeg" alt="closed door" id="door3">  
+	<img src="./doorclose.jpeg" alt="closed door" id="door1" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
+	
+	<img src="./doorclose.jpeg" alt="closed door" id="door2" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
 
+	<img src="./doorclose.jpeg" alt="closed door" id="door3" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
 
+	<table>
+		<tr>
+			<th>
+				ddd
+			</th>
+			<th>
+				dssd
+			</th>
+		</tr>
+		<tr>
+			<th>
+				ddd
+			</th>
+			<th>
+				dssd
+			</th>
+		</tr>
+	</table>
 
-<script>
-
-</script>
+<script src= "./b04901110.js"></script>
 
 </body>
 </html>
