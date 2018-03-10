@@ -3,20 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Monty Hall problem</title>
-    
-    <style>
-		p.a{
-    		font: 25px arial, sans-serif;
-		}    
-		p.b{
-			font-size: 25px; color: blue;
-		}
-		p.c{
-			font-size: 25px; color: red;
-		}
-
-    	img{ padding: 5%; margin: 0; }
-	</style>
+    <link rel="stylesheet" type="text/css" href="b04901110.css">
 
 </head>
 <body>
@@ -57,23 +44,71 @@
 	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
 	onclick="choose(this)"> 
 
-	<table>
+
+	<table style="font-size:32px" width="100%" border="10px solid black">
+		
 		<tr>
-			<th>
-				ddd
+			<th width="15%"></th>
+			<th style="font-size:40px" colspan="2" >
+				switch
 			</th>
-			<th>
-				dssd
+			<th style="font-size:40px" colspan="2" >
+				Not switch
 			</th>
 		</tr>
+
+		
 		<tr>
-			<th>
-				ddd
-			</th>
-			<th>
-				dssd
-			</th>
+			<td style="text-align: center">
+				try 
+			</td>
+			<td width="35%" id="r0c0">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+			<td width="35%" id="r0c1">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
 		</tr>
+
+		<tr>
+			<td style="text-align: center">
+				success 
+			</td>
+			<td width="35%" id="r1c0">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+			<td width="35%" id="r1c1">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+		</tr>
+
+		<tr>
+			<td style="text-align: center">
+				success rate 
+			</td>
+			<td width="35%" id="r2c0">
+				x 
+			</td>
+			<td > % </td>
+			<td width="35%" id="r2c1">
+				x 
+			</td>
+			<td > % </td>
+		</tr>
+
+
 	</table>
 
 <script src= "./b04901110.js"></script>
