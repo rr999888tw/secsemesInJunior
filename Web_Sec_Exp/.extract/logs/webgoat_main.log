@@ -2006,4 +2006,710 @@
  2018-03-11 19:52:01,932 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
  2018-03-11 19:52:01,932 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
  2018-03-11 19:52:01,941 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/NewLegacyLesson.java
+ 2018-03-11 23:26:19,040 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,040 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,040 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,041 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,040 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:26:19,041 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4aeaa9b0]
+ 2018-03-11 23:26:19,041 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:26:19,041 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:19,041 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,042 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@1f2d6f22, menu=[Ljava.lang.String;@54d7162a}
+ 2018-03-11 23:26:19,043 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:19,044 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,044 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,044 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,044 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,045 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,046 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,046 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,046 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,046 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,047 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:26:19 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100]
+ 2018-03-11 23:26:19,047 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,047 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:26:19,047 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:26:19,047 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,048 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,048 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:26:19,048 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,048 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,048 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,240 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:26:19,276 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,276 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,276 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,277 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,278 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,279 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,279 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,279 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:19,279 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,197 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:26:32,197 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1dcefba]
+ 2018-03-11 23:26:32,197 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:26:32,197 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:32,198 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@6d56cfed, menu=[Ljava.lang.String;@2516dbcf, person=[Ljava.lang.String;@362b6b3f, SUBMIT=[Ljava.lang.String;@506cf37f}
+ 2018-03-11 23:26:32,198 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:32,200 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:26:32 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=ddd,SUBMIT=Go!]
+ 2018-03-11 23:26:32,200 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:26:32,200 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:26:32,201 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:26:32,261 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:26:32,295 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,295 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,295 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,296 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,300 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,300 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:32,300 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@44de0545]
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@bd5fb3d, menu=[Ljava.lang.String;@4f7e0aa6, person=[Ljava.lang.String;@6e1dfee6, SUBMIT=[Ljava.lang.String;@5add2a4d}
+ 2018-03-11 23:26:36,880 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:26:36,882 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:26:36 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=ddd,SUBMIT=Go!]
+ 2018-03-11 23:26:36,882 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:26:36,882 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:26:36,883 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:26:36,944 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:26:36,978 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,986 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,987 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,987 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,987 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,988 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,988 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,988 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,988 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,989 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,990 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,990 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,990 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,990 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:26:36,990 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@27858ba3]
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@25a1fdc5, menu=[Ljava.lang.String;@36b5617f, person=[Ljava.lang.String;@4fe31d5, SUBMIT=[Ljava.lang.String;@fad6a7a}
+ 2018-03-11 23:27:03,004 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:03,006 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:03 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=<script> alert(1) </script>,SUBMIT=Go!]
+ 2018-03-11 23:27:03,006 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:03,006 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:03,007 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:03,064 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,073 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:03,074 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,463 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:10,463 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1af3249c]
+ 2018-03-11 23:27:10,463 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:10,463 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:10,464 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@44b0b34e, menu=[Ljava.lang.String;@7d967c06, person=[Ljava.lang.String;@541bc1f0, SUBMIT=[Ljava.lang.String;@57cfd82b}
+ 2018-03-11 23:27:10,464 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:10,466 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:10 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:10,466 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:10,466 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:10,467 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:10,521 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:10,528 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,528 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,528 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,528 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:10,529 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@475c17a2]
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@384ef3de, menu=[Ljava.lang.String;@28ecc851, person=[Ljava.lang.String;@63e682af, SUBMIT=[Ljava.lang.String;@44207876}
+ 2018-03-11 23:27:12,321 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:12,322 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:12 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:12,323 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:12,323 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:12,323 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:12,388 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:12,392 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,403 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,405 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,406 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,406 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,406 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,407 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,408 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:12,408 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,202 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:13,203 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2e6e1c2c]
+ 2018-03-11 23:27:13,203 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:13,203 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,204 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@1ba10b02, menu=[Ljava.lang.String;@51ed9fc2, person=[Ljava.lang.String;@4e041ff3, SUBMIT=[Ljava.lang.String;@1055e563}
+ 2018-03-11 23:27:13,204 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,207 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:13 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:13,208 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:13,208 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:13,210 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:13,256 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:13,258 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,258 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,258 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,259 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,260 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,261 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@19d385d6]
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@4c74c47e, menu=[Ljava.lang.String;@4483e4b5, person=[Ljava.lang.String;@725fbe2c, SUBMIT=[Ljava.lang.String;@77276884}
+ 2018-03-11 23:27:13,455 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,456 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:13 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:13,456 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:13,456 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:13,457 [http-bio-8081-exec-5] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:13,496 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,534 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,535 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:13,957 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:13,957 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@45c1a28a]
+ 2018-03-11 23:27:13,958 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:13,958 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,958 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@56c2c6f3, menu=[Ljava.lang.String;@1411617, person=[Ljava.lang.String;@371c9d02, SUBMIT=[Ljava.lang.String;@7f81bc99}
+ 2018-03-11 23:27:13,958 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:13,960 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:13 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:13,960 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:13,960 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:13,961 [http-bio-8081-exec-3] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:14,014 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:14,069 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,070 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,071 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,314 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:14,314 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1c59f679]
+ 2018-03-11 23:27:14,314 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:14,314 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:14,315 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@78326c68, menu=[Ljava.lang.String;@3d0d1ac0, person=[Ljava.lang.String;@58290db3, SUBMIT=[Ljava.lang.String;@b90c2f1}
+ 2018-03-11 23:27:14,315 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:14,316 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:14 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=dd,SUBMIT=Go!]
+ 2018-03-11 23:27:14,316 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:14,316 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:14,316 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:14,346 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,387 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:14,388 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,820 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:25,820 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@465c20f6]
+ 2018-03-11 23:27:25,820 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:25,820 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:25,821 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@8b93a7, menu=[Ljava.lang.String;@55af01b7, person=[Ljava.lang.String;@3a0aad, SUBMIT=[Ljava.lang.String;@27c6c1cc}
+ 2018-03-11 23:27:25,821 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:25,822 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:25 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=<script> alert(1) </script>,SUBMIT=Go!]
+ 2018-03-11 23:27:25,822 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:25,822 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:25,822 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:25,876 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:25,916 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,916 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,917 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,918 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,920 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,921 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,921 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,921 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,921 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,921 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,923 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,923 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,924 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:25,924 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2e3b3a4b]
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@32c33bba, menu=[Ljava.lang.String;@16023efa, person=[Ljava.lang.String;@69a591ca, SUBMIT=[Ljava.lang.String;@1e3b07d7}
+ 2018-03-11 23:27:53,331 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:53,332 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:53 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-11 23:27:53,332 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:53,332 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:53,333 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:53,403 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,438 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,439 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:53,439 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,877 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:57,878 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@64343dd0]
+ 2018-03-11 23:27:57,878 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:57,878 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:57,879 [http-bio-8081-exec-8] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@dd0383e, menu=[Ljava.lang.String;@1666324c, person=[Ljava.lang.String;@641853db, SUBMIT=[Ljava.lang.String;@21073835}
+ 2018-03-11 23:27:57,879 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:57,883 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:57 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=nibor,SUBMIT=Go!]
+ 2018-03-11 23:27:57,883 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:57,884 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:57,886 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:57,945 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,952 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:57,953 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,825 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:58,825 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@3e829e2f]
+ 2018-03-11 23:27:58,825 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:58,826 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:58,827 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@2f868cbf, menu=[Ljava.lang.String;@17560207, person=[Ljava.lang.String;@23dab7d9, SUBMIT=[Ljava.lang.String;@903266b}
+ 2018-03-11 23:27:58,827 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:58,831 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:58 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-11 23:27:58,831 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:58,831 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:58,847 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,954 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,955 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:58,988 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:59,564 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:27:59,565 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@2dc4c3f5]
+ 2018-03-11 23:27:59,565 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:27:59,565 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:59,567 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@7f617050, menu=[Ljava.lang.String;@16a448fa, person=[Ljava.lang.String;@3df2db7, SUBMIT=[Ljava.lang.String;@80f9d52}
+ 2018-03-11 23:27:59,567 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:27:59,572 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:27:59 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=nibor,SUBMIT=Go!]
+ 2018-03-11 23:27:59,572 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:27:59,572 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:27:59,574 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:27:59,645 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:27:59,672 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,672 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,672 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,672 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,672 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,673 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,673 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,673 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,673 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,674 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,675 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:27:59,675 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,079 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:28:00,080 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@7347c576]
+ 2018-03-11 23:28:00,080 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:28:00,080 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:28:00,081 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@36946379, menu=[Ljava.lang.String;@4e4ce594, person=[Ljava.lang.String;@56b3af22, SUBMIT=[Ljava.lang.String;@1b12bcf7}
+ 2018-03-11 23:28:00,081 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:28:00,086 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:28:00 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-11 23:28:00,086 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:28:00,086 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:28:00,088 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:28:00,203 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:28:00,242 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,243 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,243 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,243 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,243 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,244 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,244 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,245 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,246 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,247 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,247 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,248 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,248 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,248 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:28:00,249 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,595 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-11 23:47:37,595 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@1722a561]
+ 2018-03-11 23:47:37,595 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-11 23:47:37,595 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:47:37,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@637aba22, menu=[Ljava.lang.String;@7082a574, person=[Ljava.lang.String;@a676ff8, SUBMIT=[Ljava.lang.String;@86cca78}
+ 2018-03-11 23:47:37,596 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-11 23:47:37,597 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Sun Mar 11 23:47:37 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-11 23:47:37,597 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-11 23:47:37,597 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-11 23:47:37,598 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-11 23:47:37,639 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-11 23:47:37,667 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,668 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,669 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,674 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-11 23:47:37,674 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,184 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-12 00:09:01,184 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@20c1caa9]
+ 2018-03-12 00:09:01,184 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-12 00:09:01,184 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:01,185 [http-bio-8081-exec-6] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@e9559f6, menu=[Ljava.lang.String;@ac02334, person=[Ljava.lang.String;@25dd4997, SUBMIT=[Ljava.lang.String;@be75b07}
+ 2018-03-12 00:09:01,185 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:01,187 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Mon Mar 12 00:09:01 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=nibor,SUBMIT=Go!]
+ 2018-03-12 00:09:01,187 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-12 00:09:01,187 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-12 00:09:01,188 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-12 00:09:01,220 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,252 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:01,253 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,233 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-12 00:09:03,233 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@176a96a6]
+ 2018-03-12 00:09:03,233 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-12 00:09:03,233 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:03,234 [http-bio-8081-exec-2] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@499ba42a, menu=[Ljava.lang.String;@3c5352ad, person=[Ljava.lang.String;@58f39ce9, SUBMIT=[Ljava.lang.String;@1befeef7}
+ 2018-03-12 00:09:03,234 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:03,236 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - Mon Mar 12 00:09:03 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-12 00:09:03,236 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-12 00:09:03,236 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-12 00:09:03,237 [http-bio-8081-exec-2] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-12 00:09:03,268 [http-bio-8081-exec-9] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-12 00:09:03,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,297 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,298 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:03,299 [http-bio-8081-exec-3] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,172 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-12 00:09:04,172 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@232663e]
+ 2018-03-12 00:09:04,173 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-12 00:09:04,173 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:04,173 [http-bio-8081-exec-7] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@68e90914, menu=[Ljava.lang.String;@537bd72a, person=[Ljava.lang.String;@61159ea0, SUBMIT=[Ljava.lang.String;@7087172a}
+ 2018-03-12 00:09:04,173 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:04,176 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Mon Mar 12 00:09:04 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=nibor,SUBMIT=Go!]
+ 2018-03-12 00:09:04,176 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-12 00:09:04,176 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-12 00:09:04,177 [http-bio-8081-exec-7] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-12 00:09:04,223 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,223 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,224 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,226 [http-bio-8081-exec-1] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-12 00:09:04,246 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,246 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,246 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,246 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,247 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,248 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:04,961 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-12 00:09:04,961 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@43b13268]
+ 2018-03-12 00:09:04,961 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-12 00:09:04,961 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:04,962 [http-bio-8081-exec-4] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@4199c171, menu=[Ljava.lang.String;@7bc69d83, person=[Ljava.lang.String;@54722d83, SUBMIT=[Ljava.lang.String;@1e1a7717}
+ 2018-03-12 00:09:04,962 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:04,964 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Mon Mar 12 00:09:04 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=robin,SUBMIT=Go!]
+ 2018-03-12 00:09:04,964 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-12 00:09:04,964 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-12 00:09:04,965 [http-bio-8081-exec-4] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-12 00:09:05,012 [http-bio-8081-exec-8] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-12 00:09:05,015 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,017 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,018 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,019 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,019 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,019 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,021 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,022 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,022 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,022 [http-bio-8081-exec-1] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,532 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Entering doPost
+ 2018-03-12 00:09:05,532 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$Servlet3SaveToSessionRequestWrapper@4b65d5a4]
+ 2018-03-12 00:09:05,533 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - principle: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@686f0c72: Principal: org.springframework.security.core.userdetails.User@5e22dd8: Username: guest; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_WEBGOAT_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffd148a: RemoteIpAddress: 127.0.0.1; SessionId: 37EABED30404CC8AE466B62031E97D21; Granted Authorities: ROLE_WEBGOAT_USER
+ 2018-03-12 00:09:05,533 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Entering Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:05,534 [http-bio-8081-exec-10] INFO  org.owasp.webgoat.session.WebSession  - PARM MAP: {Screen=[Ljava.lang.String;@78175557, menu=[Ljava.lang.String;@42222ac, person=[Ljava.lang.String;@5d901af, SUBMIT=[Ljava.lang.String;@60f42c45}
+ 2018-03-12 00:09:05,534 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - HH Leaving Session_id: BF8FBF704911A45E5C2883AA1D2590CA
+ 2018-03-12 00:09:05,538 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Mon Mar 12 00:09:05 CST 2018 | 127.0.0.1:127.0.0.1 | org.owasp.webgoat.plugin.HttpBasics | [Screen=1869022003,menu=100,person=nibor,SUBMIT=Go!]
+ 2018-03-12 00:09:05,538 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Forwarding to view: /lesson_content.jsp
+ 2018-03-12 00:09:05,538 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Screen: Http Basics
+ 2018-03-12 00:09:05,539 [http-bio-8081-exec-10] DEBUG org.owasp.webgoat.HammerHead  - Leaving doPost: 
+ 2018-03-12 00:09:05,573 [http-bio-8081-exec-6] DEBUG org.owasp.webgoat.lessons.AbstractLesson  - Loading source file: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/.extract/webapps/WebGoat/plugin_extracted/org/owasp/webgoat/plugin/HttpBasics.java
+ 2018-03-12 00:09:05,590 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:09:05,596 [http-bio-8081-exec-9] INFO  org.owasp.webgoat.service.LessonMenuService  - Role: user
+ 2018-03-12 00:19:14,901 [localhost-startStop-2] INFO  org.springframework.web.context.support.XmlWebApplicationContext  - Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Sun Mar 11 17:16:27 CST 2018]; parent: Root WebApplicationContext
+ 2018-03-12 00:19:14,903 [localhost-startStop-2] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1750dd62: defining beans [labelManager,beanProvider,labelProvider,start,login,welcome,logout,about,applicationService,labelDebugService,pluginReloadService,solutionService,lessonPlanService,lessonInfoService,lessonTitleService,parameterService,cookieService,lessonMenuService,hintService,lessonProgressService,sourceService,sessionService,restartLessonService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,viewResolver,scopedTarget.labelDebugger,labelDebugger,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@55dcf00e
+ 2018-03-12 00:19:14,931 [localhost-startStop-2] INFO  org.springframework.web.context.support.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Sun Mar 11 17:16:24 CST 2018]; root of context hierarchy
+ 2018-03-12 00:19:14,933 [localhost-startStop-2] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55dcf00e: defining beans [labelManager,beanProvider,labelProvider,start,login,welcome,logout,about,applicationService,labelDebugService,pluginReloadService,solutionService,lessonPlanService,lessonInfoService,lessonTitleService,parameterService,cookieService,lessonMenuService,hintService,lessonProgressService,sourceService,sessionService,restartLessonService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,viewResolver,scopedTarget.labelDebugger,labelDebugger,org.springframework.web.servlet.handler.MappedInterceptor#1,org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.web.DefaultSecurityFilterChain#5,org.springframework.security.web.DefaultSecurityFilterChain#6,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#1,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#7,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
  
