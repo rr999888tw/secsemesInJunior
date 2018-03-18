@@ -62,7 +62,7 @@ var ball = new Ball(random(0, width), random(0, height), random(-10, 10), random
 var balls = [];
 for (let i = 0; i< 10; ++i){
 	let g = new Ball(random(0, width), random(0, height), random(-10, 10), random(-10, 10),
-	"rgb("+random(200,255)+', '+random(200,255)+', '+random(200,255)+ " )" , random(10,20));
+	"rgb("+random(150,255)+', '+random(150,255)+', '+random(150,255)+ " )" , random(10,20));
 	balls.push(g);
 	g.draw();
 }
@@ -76,6 +76,7 @@ function loop(){
 	for(let i= 0; i<10; ++i){
 		balls[i].draw();
 		balls[i].move();
+
 	}
 	requestAnimationFrame(loop);
 }
