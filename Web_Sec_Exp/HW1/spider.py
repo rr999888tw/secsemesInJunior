@@ -13,7 +13,7 @@ def requestStatus(str1,str2):
 		return 0
 		# print("this is shit")
 
-target = 'https://www.ets.org/gre/'
+target = 'http://www.lmsh.tn.edu.tw/'
 
 myfile = open("all.txt","r")
 
@@ -31,4 +31,16 @@ for i in range(0, size):
 		sucArr.append(target+temp[i])
 		print(target+temp[i])
 		print(" try " + str(i+1) + " times , success " + str(len(sucArr)) +" times.")
+	if(i % 1000 == 0):
+		print(" try " + str(i+1) + " times , success " + str(len(sucArr)) +" times.")
+ 
 print(sucArr)
+
+
+wFile = open('valid_links.txt','w')
+for i in sucArr:
+    wFile.write(str(i))
+    wFile.write('\n')
+
+
+
