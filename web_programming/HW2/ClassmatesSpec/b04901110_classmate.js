@@ -210,14 +210,15 @@ function showComSign(){
 
 
 var count = 0;
-setInterval(function () {
+var ss = setInterval(function () {
     count++;
     time.innerHTML = count + " s"
 
 }, 1000);
 
 
-
+console.log(ss);
+console.log(typeof(ss));
 
 
 
