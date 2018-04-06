@@ -12,7 +12,7 @@ while True:
     request = client.recv(1000).decode('utf-8')
     print(request)
 
-    response = "Hello World!!"
+    response = "Hello World!!\n\n"
 
     client.sendall(bytes(response.encode('utf-8')))
     client.close()
