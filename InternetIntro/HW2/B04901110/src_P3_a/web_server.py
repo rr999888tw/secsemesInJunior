@@ -14,26 +14,28 @@ while(True):
     while(True):
         client, address = s.accept()
         print(str(address)+" connected")
-        # try:
-        recm = client.recv(1000).decode('utf-8')
-        requestNheaders = recm.split('\n')
-        request = requestNheaders[0].split()
-        command = request[0]
-        path = request[1]
-        protocal = request[2]
+        try:
+            recm = client.recv(1000).decode('utf-8')
+            requestNheaders = recm.split('\n')
+            request = requestNheaders[0].split()
+            command = request[0]
+            path = "." + request[1]
+            protocal = request[2]
 
-        
-
-
-
-
-
-        http_response = "hello world \n"
-        # client.send(b"Welcome to HW2 P1 Local Server. Please give me your identity. What's your name?\n")
-        client.sendall(http_response.encode('utf-8'))
-        client.close()
-        # except:
-        # print("except")
+            try:
+                file = open(path,'r')
+                response = file.read()
+            except:
+                response = "404 Not Found"
+            
+            client.send(b'HTTP/1.1 200 OK\n')
+            client.send(b'Content-Type: text/html\n')
+            client.send(b'\n') # header and body should be separated by additional newline
+            client.sendall((response).encode('utf-8'))
+            # client.send()
+            client.close()
+        except:
+            print("except")
 
 
 
