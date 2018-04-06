@@ -1,6 +1,8 @@
 import socket
 
 HOST, PORT = "", 12345
+
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 s.bind((HOST, PORT))
@@ -12,13 +14,42 @@ while(True):
     while(True):
         client, address = s.accept()
         print(str(address)+" connected")
-        try:
-            recm = client.recv(1000).decode('utf-8')
-            arr = recm.split('\n')
-            print(arr[0])
-            http_response = "hello world \n"
-            # client.send(b"Welcome to HW2 P1 Local Server. Please give me your identity. What's your name?\n")
-            client.sendall(bytes(http_response.encode('utf-8')))
-            client.close()
-        except:
-            print("except")
+        # try:
+        recm = client.recv(1000).decode('utf-8')
+        requestNheaders = recm.split('\n')
+        request = requestNheaders[0].split()
+        command = request[0]
+        path = request[1]
+        protocal = request[2]
+
+        
+
+
+
+
+
+        http_response = "hello world \n"
+        # client.send(b"Welcome to HW2 P1 Local Server. Please give me your identity. What's your name?\n")
+        client.sendall(http_response.encode('utf-8'))
+        client.close()
+        # except:
+        # print("except")
+
+
+
+
+
+
+
+
+
+# class HTTPRequest(BaseHTTPRequestHandler):
+#     def __init__(self, request_text):
+#         self.rfile = StringIO(request_text)
+#         self.raw_requestline = self.rfile.readline()
+#         self.error_code = self.error_message = None
+#         self.parse_request()
+
+#     def send_error(self, code, message):
+#         self.error_code = code
+#         self.error_message = message
