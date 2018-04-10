@@ -934,3 +934,56 @@
 2018-04-10 02:52:09 - pcap.breakloop()
 2018-04-10 02:52:09 - pcap.breakloop()
 2018-04-10 02:52:09 - Pcap stop:-2
+2018-04-10 20:05:39 - Pcap is listening...
+2018-04-10 20:06:24 - fetch 4 flows
+2018-04-10 20:07:24 - fetch 3 flows
+2018-04-10 20:08:24 - fetch 31 flows
+2018-04-10 20:09:24 - fetch 27 flows
+2018-04-10 20:10:24 - fetch 12 flows
+2018-04-10 20:11:24 - fetch 6 flows
+2018-04-10 20:12:24 - fetch 9 flows
+2018-04-10 20:13:24 - fetch 1 flows
+2018-04-10 20:13:44 - fetch 4 flows
+2018-04-10 20:14:44 - fetch 8 flows
+2018-04-10 20:15:44 - fetch 5 flows
+2018-04-10 20:16:44 - fetch 3 flows
+2018-04-10 20:17:44 - fetch 6 flows
+2018-04-10 20:18:44 - fetch 4 flows
+2018-04-10 20:19:44 - fetch 7 flows
+2018-04-10 20:20:44 - fetch 4 flows
+2018-04-10 20:21:44 - fetch 4 flows
+2018-04-10 20:22:44 - fetch 7 flows
+2018-04-10 20:23:44 - fetch 7 flows
+2018-04-10 20:24:44 - fetch 8 flows
+2018-04-10 20:25:44 - fetch 5 flows
+2018-04-10 20:26:44 - fetch 2 flows
+2018-04-10 20:28:04 - fetch 3 flows
+2018-04-10 20:29:04 - fetch 7 flows
+2018-04-10 20:30:04 - fetch 7 flows
+2018-04-10 20:31:04 - fetch 4 flows
+2018-04-10 20:32:04 - fetch 1 flows
+2018-04-10 20:32:44 - fetch 6 flows
+2018-04-10 20:33:44 - fetch 3 flows
+2018-04-10 20:34:44 - fetch 7 flows
+2018-04-10 20:36:04 - fetch 4 flows
+2018-04-10 20:37:04 - fetch 5 flows
+2018-04-10 20:38:04 - fetch 3 flows
+2018-04-10 20:39:04 - fetch 9 flows
+2018-04-10 20:40:04 - fetch 3 flows
+2018-04-10 20:41:04 - fetch 7 flows
+2018-04-10 20:42:04 - fetch 1 flows
+2018-04-10 20:43:04 - fetch 6 flows
+2018-04-10 20:44:04 - fetch 6 flows
+2018-04-10 20:45:04 - fetch 14 flows
+2018-04-10 20:46:04 - fetch 4 flows
+2018-04-10 20:47:04 - fetch 4 flows
+2018-04-10 20:48:04 - fetch 8 flows
+2018-04-10 20:49:04 - fetch 4 flows
+2018-04-10 22:42:12 - Pcap is listening...
+2018-04-10 22:42:36 - fetch 3 flows
+2018-04-10 22:43:36 - fetch 2 flows
+2018-04-10 22:43:43 - Working on... /home/robinlin/Desktop/jjj.pcap
+2018-04-10 22:43:43 - We have read All packets!
+2018-04-10 22:44:36 - fetch 18 flows
+2018-04-10 22:45:36 - fetch 10 flows
+2018-04-10 22:45:57 - fetch 1 flows

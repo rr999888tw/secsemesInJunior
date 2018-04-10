@@ -1,8 +1,8 @@
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-s.connect(("140.112.42.108",12345));
+# 140.112.42.108
+s.connect(("127.0.0.1",12345))
 
 while True:
     try:
