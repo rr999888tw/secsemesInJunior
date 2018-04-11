@@ -104,7 +104,7 @@ it('7 - 8 -> 8', () => {
 });
 
 
-it('7 - + 8 -> 15', () => {
+it('7 - + 8 -> 8', () => {
   const app = mount(<CalcApp />);
 
   const rows = app.find('.calc-row');
