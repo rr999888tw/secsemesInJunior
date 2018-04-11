@@ -10,7 +10,7 @@ tcpSerSock = socket(AF_INET, SOCK_STREAM)
 # Fill in start.
 HOST, PORT = sys.argv[1], 23456
 tcpSerSock.bind((HOST, PORT))
-tcpSerSock.listen(0)
+tcpSerSock.listen(5)
 # Fill in end.
 while 1:
 	# Strat receiving data from the client
@@ -63,16 +63,18 @@ while 1:
 				# Fill in start.
 				
 				resp = c.recv(2**20)
-				resp = resp.partition(b'\n\n')
+				resp = (resp.partition(b'\n\n'))[2]
 				# print(buffer.decode("utf-8"))
 				# Fill in end.
 				# Create a new file in the cache for the requested file.
 				# Also send the response in the buffer to client socket and the corresponding file in the cache
 				tmpFile = open("./" + filename, "wb")
-				File = b""
-				for i in range(2, len(resp), 1):
-					File += resp[i]
-				tmpFile.write((File))
+				tmpFile.write(resp)
+
+				# File = b""
+				# for i in range(2, len(resp), 1):
+				# 	File += resp[i]
+				# tmpFile.write((File))
 				tmpFile.close()
 				fileobj.close()
 				# Fill in end.
