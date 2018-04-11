@@ -42,7 +42,7 @@ class CalcApp extends React.Component {
         display: numstr,
         realval: this.state.realval,
         sign: this.state.sign,
-        his: this.state.his.concat([numstr])
+        his: this.state.his.slice().concat([numstr])
       })
       return;
     }
@@ -52,7 +52,7 @@ class CalcApp extends React.Component {
         display: numstr,
         realval: 0,
         sign: "",
-        his: this.state.his.concat([""])
+        his: this.state.his.slice().concat([""])
       })
       return;
     }
@@ -60,7 +60,7 @@ class CalcApp extends React.Component {
     let display = this.state.display;
     if(display == "0") display = numstr;
     else display = display + numstr
-    let his = this.state.his;
+    let his = this.state.his.slice();
     his.push(numstr)
 
     this.setState({
@@ -85,7 +85,7 @@ class CalcApp extends React.Component {
         display: display,
         realval: this.state.realval,
         sign: sign,
-        his: this.state.his.concat([sign])
+        his: this.state.his.slice().concat([sign])
       })
       return;
     }
@@ -121,7 +121,7 @@ class CalcApp extends React.Component {
       display: realval.toString(),
       realval: realval,
       sign: sign,
-      his: this.state.his.concat([sign])
+      his: this.state.his.slice().concat([sign])
     })
 
     // ÷ x - +
