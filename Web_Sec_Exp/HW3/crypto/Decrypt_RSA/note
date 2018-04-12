@@ -1,0 +1,17 @@
+openssl rsa -pubin -inform PEM -text -noout < public-key.pem
+
+Public-Key: (640 bit)
+Modulus:
+    00:ae:5b:b4:f2:66:00:32:59:cf:9a:6f:52:1c:3c:
+    03:41:01:76:cf:16:df:53:95:34:76:ea:e3:b2:1e:
+    de:6c:3c:7b:03:bd:ca:20:b3:1c:00:67:ff:a7:97:
+    e4:e9:10:59:78:73:ee:f1:13:a6:0f:ec:cd:95:de:
+    b5:b2:bf:10:06:6b:e2:22:4a:ce:29:d5:32:dc:0b:
+    5a:74:d2:d0:06:f1
+Exponent: 65537 (0x10001)
+
+4261 ada8 8f61 b45d 52b9 0238 aed0 3ef3
+caa9 d04a aca5 cda2 fd1b fc9e 32ae daa4
+68cb 7fc8 6fe5 9896 0744 1a86 a3e0 df52
+1990 379e a6cc 9a53 01d5 cee7 377f d52e
+af41 4814 25c6 3735 eb84 8048 9845 3a5a
