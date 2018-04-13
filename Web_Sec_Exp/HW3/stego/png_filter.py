@@ -61,6 +61,7 @@ for i in range(0,len(decompressed),blocksize):
         sys.exit(3)
 
 s = filterbits
+
 endianess_filterbits = [filterbits[i:i+8][::-1] for i in xrange(0, len(filterbits), 8)]
 
 flag = ''
