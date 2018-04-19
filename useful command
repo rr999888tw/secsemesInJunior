@@ -1,0 +1,19 @@
+ssh team08@140.112.33.165 -p 12345 
+dclab08
+
+ssh bbsu@ptt.cc
+
+/media/robinlin/Local Disk/Users/rr999/OneDrive/大三下
+
+
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 2
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2
+
+java -jar webgoat-container-7.1-exec.jar -httpPort=8081
+
+http://niceservice.idv.tw/best/bascxd.asp
+
+init 0
+
+git config credential.helper store
+
