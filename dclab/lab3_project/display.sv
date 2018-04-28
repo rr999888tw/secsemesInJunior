@@ -15,7 +15,7 @@ module diplay(
 	output [6:0] o1,
 	output [6:0] o0,
 	//
-	output [15:0] LEDR
+	// output [15:0] LEDR
 );
 
 parameter H = 7'b0001001;
