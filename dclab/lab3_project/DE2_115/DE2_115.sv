@@ -149,10 +149,12 @@ module DE2_115(
 	assign AUD_XCK = CLK12M;
 
 diplay disp0(
+	.i_rst_N(~keydown_rst), // may be ~keydown_rst, I2Crst
 	.i_addr(sram_addr),  ///彭要幫我處理成5bit yeah  assume that is i_sec
 	.i_sw(SW),
 	.i_state(TOP_state),
 	.i_data(TOP_data),
+	.clock_50(CLOCK_50),
 	.sec7(HEX7),
 	.sec6(HEX6),
 	.sec5(HEX5),
@@ -162,6 +164,13 @@ diplay disp0(
 	.o1(HEX1),
 	.o0(HEX0),
 	//.LEDR(LEDR[15:0])
+	.lcd_blon(LCD_BLON),
+	.lcd_data(LCD_DATA),
+	.lcd_en(LCD_EN),
+	.lcd_on(LCD_ON),
+	.lcd_rs(LCD_RS),
+	.lcd_rw(LCD_RW),
+
 );
 
 assign LEDG[1] = SRAM_UB_N;
@@ -253,10 +262,6 @@ I2cSender I2cS(
 	.o_sclk(I2C_SCLK),
 	.o_sdat(I2C_SDAT)
 );	
-
-
-
-
 
 
 endmodule

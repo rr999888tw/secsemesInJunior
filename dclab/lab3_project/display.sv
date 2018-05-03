@@ -1,13 +1,15 @@
 module diplay(
+	input i_rst_N,
 	input [19:0] i_addr,  ///彭要幫我處理成5bit yeah  assume that is i_sec
 	input [17:0] i_sw,
 	input [2:0] i_state,
 	input [15:0] i_data,
+	input clock_50
 	//
+	output [6:0] sec5,
 	output [6:0] sec7,
 	output [6:0] sec6,
 
-	output [6:0] sec5,
 	output [6:0] sec4,
 	//
 	output [6:0] o3,
@@ -16,6 +18,14 @@ module diplay(
 	output [6:0] o0,
 	//
 	// output [15:0] LEDR
+
+	output lcd_blon,
+	output [7:0] lcd_data,
+	output lcd_en,
+	output lcd_on,
+	output lcd_rs,
+	output lcd_rw
+	
 );
 
 parameter H = 7'b0001001;
@@ -56,6 +66,22 @@ SevenHexDecoder2 s2(
 	.o_seven_ten(o_state_5),
 	.o_seven_one(o_state_4)
 );
+
+
+LCDdisplay ld(
+	.i_rst_N(i_rst_N),
+	.i_state(i_state),
+	.clock_50(clock_50),
+	.i_sec(i_sec),
+    .sw(sw),
+	.lcd_blon(lcd_blon),
+	.lcd_data(lcd_data),
+	.lcd_en(lcd_en),
+	.lcd_on(lcd_on),
+	.lcd_rs(lcd_rs),
+	.lcd_rw(lcd_rw)
+);
+
 
 	always_comb begin
 		
