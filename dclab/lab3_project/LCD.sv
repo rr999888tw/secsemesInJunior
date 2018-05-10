@@ -260,9 +260,20 @@ case (i_state)
         
         chars[33][8:0] = 9'h80;
         
-        
     end
 
+	default: begin: 
+
+		for (int i = 0; i < 16; ++i) begin
+            chars[i][8:0] = Space;
+        end
+        chars[16][8:0] = 9'hC0;
+        for (int i = 17; i < 33; ++i) begin
+            chars[i][8:0] = Space;
+        end
+        chars[33][8:0] = 9'h80;
+		
+	end
 endcase
 
 localparam I = 9'b101001001;
