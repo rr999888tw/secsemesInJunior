@@ -17,3 +17,5 @@ init 0
 
 git config credential.helper store
 
+git filter-branch --tree-filter 'rm path/to/your/bigfile' HEAD
+git push origin master --force
