@@ -1,8 +1,4 @@
-./.git/objects/pack/pack-1ea714329dbaa67c82ded54f3f2753c4a997c283.pack
-./.git/objects/pack/tmp_pack_nOYtvc
-./.git/objects/pack/pack-bf15e06b995a3d6fa0559027e9873e4209e0f691.pack
-./.git/objects/pack/pack-be7e932b434f539e2cd301e3be7e9013cbc06901.pack
-./.git/objects/pack/tmp_pack_rxrGDe
-./.git/objects/pack/tmp_pack_aqikTp
-./.git/objects/pack/pack-1ea714329dbaa67c82ded54f3f2753c4a997c283.pack
-./.git/objects/eb/479cd673d36a762eeb0cd7ea67026e7073755a
+./datascience/May_15th/glove.6B/glove.6B.300d.txt
+./datascience/May_15th/glove.6B/glove.6B.50d.txt
+./datascience/May_15th/glove.6B/glove.6B.100d.txt
+./datascience/May_15th/glove.6B/glove.6B.200d.txt
