@@ -20,4 +20,10 @@ git config credential.helper store
 git filter-branch --tree-filter 'rm path/to/your/bigfile' HEAD
 git push origin master --force
 
+
+// fix wifi dropped
+iw dev wlp2s0 get power_save
 sudo iw dev wlp2s0 set power_save off
+
+mysql -u root -p
+
