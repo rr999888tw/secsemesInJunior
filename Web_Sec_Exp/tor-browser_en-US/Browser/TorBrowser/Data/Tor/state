@@ -1,0 +1,37 @@
+# Tor state file last generated on 2018-04-08 17:01:54 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+Guard in=default rsa_id=9F1FA6BA0C2033320D02B34BE069764F267411D9 nickname=PonTor sampled_on=2018-03-30T16:59:57 sampled_by=0.3.2.10 listed=1 confirmed_on=2018-04-01T15:08:43 confirmed_idx=1
+Guard in=default rsa_id=661EBD854F07109F0F7CEDC86C2A3F565FC01C3B nickname=VelociRapTor sampled_on=2018-03-31T08:04:54 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=F93D8F37E35C390BCAD9F9069E13085B745EC216 nickname=TykRelay06 sampled_on=2018-03-31T19:47:11 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=4181B97ECDB6556E18D7A3961F1F8DC8F1D8C146 nickname=DC225Relay2 sampled_on=2018-04-07T16:52:05 sampled_by=0.3.2.10 listed=1 confirmed_on=2018-03-30T03:46:58 confirmed_idx=0 pb_use_attempts=2.000000 pb_use_successes=2.000000 pb_circ_attempts=15.000000 pb_circ_successes=13.000000 pb_successful_circuits_closed=13.000000
+Guard in=default rsa_id=E555B09C77036733E00A7D61CD534BA9AF4AA232 nickname=shinefinknothing sampled_on=2018-03-30T17:17:50 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=917039079129A952C5A2A50E4E796A039A4D98B9 nickname=DauradeRoyale sampled_on=2018-04-01T07:12:07 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=C8200264E43F7920B543F8CDAE055E6EECAD658E nickname=inky sampled_on=2018-03-29T06:41:36 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=EAA705AFB576E84BE5B417EB4CB9FFCEC15ADB37 nickname=tor2ea351be sampled_on=2018-03-30T14:41:31 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=F63B4B6AFB341BC03CBA3097C7E38E5C2B3DCD7E nickname=monerofan sampled_on=2018-03-29T20:38:17 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=587B1EAF1E22E148EFB010DAA337ACDCD4DB5CBA nickname=alxu sampled_on=2018-03-27T23:25:33 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=8EBB8D1CF48FE2AB95C451DA8F10DB6235F40F8A nickname=0x3d007 sampled_on=2018-04-02T15:05:35 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=5ED563E71532F98D1495C95A813505D0121C6DF5 nickname=as44194l10502 sampled_on=2018-04-01T19:26:55 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=FD962B300A2155701D45BD91246711A6E266ED72 nickname=KlausTor01 sampled_on=2018-04-01T05:50:44 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=581B9798772A3219DBFF2F637E43E4C5127554FA nickname=waldfee sampled_on=2018-03-29T01:44:30 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=068308AD070849A71B8C1DB06C2509E82C40B908 nickname=radia0 sampled_on=2018-03-27T23:57:02 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=439D0447772CB107B886F7782DBC201FA26B92D1 nickname=pablobm001 sampled_on=2018-04-05T00:23:34 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=D877516DBCA986CE6D3B109D2FA9AB9331DA82A6 nickname=GarryTheTor sampled_on=2018-04-01T20:30:27 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=327F5823438B8EC86EC33355C147D8455AB1C14B nickname=demang sampled_on=2018-03-31T09:07:59 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=1F9544C0A80F1C5D8A5117FBFFB50694469CC7F4 nickname=as44194l10501 sampled_on=2018-03-31T12:37:41 sampled_by=0.3.2.10 listed=1
+Guard in=default rsa_id=844AE9CAD04325E955E2BE1521563B79FE7094B7 nickname=Smeerboel sampled_on=2018-03-31T09:36:06 sampled_by=0.3.2.10 listed=1 confirmed_on=2018-04-01T09:04:06 confirmed_idx=2
+TorVersion Tor 0.3.2.10
+LastWritten 2018-04-08 09:01:54
+TotalBuildTimes 13
+CircuitBuildTimeBin 925 1
+CircuitBuildTimeBin 975 1
+CircuitBuildTimeBin 1025 1
+CircuitBuildTimeBin 1125 2
+CircuitBuildTimeBin 1175 1
+CircuitBuildTimeBin 1325 2
+CircuitBuildTimeBin 1425 1
+CircuitBuildTimeBin 1475 1
+CircuitBuildTimeBin 1725 1
+CircuitBuildTimeBin 1925 2

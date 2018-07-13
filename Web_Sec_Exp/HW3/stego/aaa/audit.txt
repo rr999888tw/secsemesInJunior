@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 14 01:45:12 2018
+Invocation: foremost -t zip -i stego2.jpg -o aaa 
+Output directory: /home/robinlin/Desktop/secsemesInJunior/Web_Sec_Exp/HW3/stego/aaa
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: stego2.jpg
+Start: Sat Apr 14 01:45:12 2018
+Length: 72 KB (73963 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000079.zip 	      32 KB 	      40804 	 
+Finish: Sat Apr 14 01:45:12 2018
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 14 01:45:12 2018

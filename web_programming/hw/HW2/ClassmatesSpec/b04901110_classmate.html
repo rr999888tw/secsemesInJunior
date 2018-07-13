@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>b04901110_classMateSpec</title>
+    <link rel="stylesheet" href="b04901110_classmate.css">
+  </head>
+
+
+<body>
+
+	<div class = "board">
+		<div class="small">
+			<span>Money</span>
+			<span class="data" id="money">1000</span>
+		</div>
+		<div class="small">
+			<span>Record</span>
+			<span class="data" id="record">0</span>
+		</div>
+		<div class="small">
+			<span>Streak</span>
+			<span class="data" id = "streak">0</span>
+		</div>
+		<div class="small">
+			<span>Spent Time</span>
+			<span class="data" id = "time">0</span>
+		</div>
+	</div>
+
+	<div class = "mainBoard" id = "mainBoard">
+	<svg width="1288" height="540" id = "mySvg">
+        <rect stroke = "yellow" x="175" y="25" width="150" height="150"></rect>
+        <line stroke = "yellow" x1="250" y1="175" x2="250" y2="350"></line>
+        <line stroke = "yellow" x1="250" y1="225" x2="400" y2="225"></line>
+        <line stroke = "yellow" x1="250" y1="225" x2="175" y2="300"></line>
+        <line stroke = "yellow" x1="250" y1="350" x2="200" y2="450"></line>
+        <line stroke = "yellow" x1="250" y1="350" x2="300" y2="450"></line>
+
+        
+        
+        <line name = "comFinger" class = "signs" x1="430" y1="225" x2="480" y2="145"></line>
+        <line name = "comFinger" class = "signs" x1="430" y1="225" x2="530" y2="175"></line>
+        <line name = "comFinger" class = "signs" x1="430" y1="225" x2="550" y2="225"></line>
+        <line name = "comFinger" class = "signs" x1="430" y1="225" x2="530" y2="275"></line>
+        <line name = "comFinger" class = "signs" x1="430" y1="225" x2="480" y2="305"></line>
+
+
+
+   		<circle cx="430" cy="225" r="40" stroke="green" stroke-width="4" fill="yellow" > </circle> 
+
+
+
+
+
+
+        <rect stroke= "yellow" x="875" y="25" width="150" height="150"></rect>
+		<line stroke= "yellow" x1="950" y1="175" x2="950" y2="350"></line>
+		<line stroke= "yellow" x1="950" y1="225" x2="800" y2="225"></line>
+		<line stroke= "yellow" x1="950" y1="225" x2="1025" y2="300"></line>
+        <line stroke= "yellow" x1="950" y1="350" x2="900" y2="450"></line>
+        <line stroke= "yellow" x1="950" y1="350" x2="1000" y2="450"></line>
+
+        
+        <line name = "playerFinger" class = "signs" x1="755" y1="225" x2="705" y2="145"></line>
+        <line name = "playerFinger" class = "signs" x1="755" y1="225" x2="655" y2="175"></line>
+        <line name = "playerFinger" class = "signs" x1="755" y1="225" x2="635" y2="225"></line>
+        <line name = "playerFinger" class = "signs" x1="755" y1="225" x2="655" y2="275"></line>
+        <line name = "playerFinger" class = "signs" x1="755" y1="225" x2="705" y2="305"></line>
+
+   		<circle cx="755" cy="225" r="40" stroke="green" stroke-width="4" fill="yellow" > </circle> 
+<!--  -->
+
+
+	</svg> 
+ 
+		
+	</div>
+
+	<div class = "board">
+		<div class="small" style="width:15%; text-align: center;">Get Luck</div>
+		<div class="small" style="width:70%;">
+			<btn class = "little" id = "paperBtn">paper</btn>
+			<btn class = "little" id = "scissorsBtn">scissors</btn>
+			<btn class = "little" id = "stoneBtn">stone</btn>
+		</div>
+		<button class="small" style="width:15%; text-align: center;" id = "go">Go </button>	
+	</div>
+
+    <script src="b04901110_classmate.js"></script>
+
+</body>
+
+
+</html>

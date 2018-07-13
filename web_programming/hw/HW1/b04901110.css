@@ -1,0 +1,25 @@
+p.a{
+	font: 25px arial, sans-serif;
+}    
+p.b{
+	font-size: 25px; color: blue;
+}
+p.c{
+	font-size: 25px; color: red;
+}
+th {
+	text-align: center;
+    /*border: 1px solid black;*/
+}
+
+td{
+	text-align: center;
+}
+
+
+img{ padding: 5%; margin: 0; }
+
+			
+.cen{
+	text-align: center;
+}

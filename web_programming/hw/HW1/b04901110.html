@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Monty Hall problem</title>
+    <link rel="stylesheet" type="text/css" href="b04901110.css">
+
+</head>
+<body>
+	
+	<h1>
+		This is a webpage verifying <b>Monty Hall problem</b>, that is:<br> 
+	</h1>
+	<p class="a">
+		assume that you are in a reality show,<br> 
+		and there are three doors in front of you.<br> 
+		Behind the doors are a car and two goats unoderedly.<br>
+		You can go home with the one behind the door you choose.<br><br>
+		after you randomly choose, the host of the reality show would open a door with a goat behind it, <br>
+		and then ask you if you would like to switch your choice,<br><br>  
+		<span style="color:brown">your strategy can be either </span> <br>
+	</p>
+		
+	<p class="b">
+		1.Not Switch your choice.<br>
+		or<br>
+		2.Switch your choice. <br>
+	</p>	
+	
+	<p class = "a">
+	You can play multiple times, and the statistics will be recorded below
+	</p>	
+
+
+	<img src="./doorclose.jpeg" alt="closed door" id="door1" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
+	
+	<img src="./doorclose.jpeg" alt="closed door" id="door2" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
+
+	<img src="./doorclose.jpeg" alt="closed door" id="door3" 
+	onmouseover="openDoor(this)" onmouseout="closeDoor(this)"
+	onclick="choose(this)"> 
+
+
+	<table style="font-size:32px" width="100%" border="10px solid black">
+		
+		<tr>
+			<th width="15%"></th>
+			<th style="font-size:40px" colspan="2" >
+				switch
+			</th>
+			<th style="font-size:40px" colspan="2" >
+				Not switch
+			</th>
+		</tr>
+
+		
+		<tr>
+			<td style="text-align: center">
+				try 
+			</td>
+			<td width="35%" id="r0c0">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+			<td width="35%" id="r0c1">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+		</tr>
+
+		<tr>
+			<td style="text-align: center">
+				success 
+			</td>
+			<td width="35%" id="r1c0">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+			<td width="35%" id="r1c1">
+				x 
+			</td>
+			<td >
+				 (times)
+			</td>
+		</tr>
+
+		<tr>
+			<td style="text-align: center">
+				success rate 
+			</td>
+			<td width="35%" id="r2c0">
+				x 
+			</td>
+			<td > % </td>
+			<td width="35%" id="r2c1">
+				x 
+			</td>
+			<td > % </td>
+		</tr>
+
+
+	</table>
+
+<script src= "./b04901110.js"></script>
+
+</body>
+</html>
+

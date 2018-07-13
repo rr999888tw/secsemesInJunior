@@ -1,0 +1,26 @@
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.one {
+height: 300px;
+width: 200px;
+background-color: Tomato;
+border: 2px dotted;
+}
+.two {
+height: 300px;
+width: 200px;
+background-color: DodgerBlue;
+border: 2px dotted;
+}
+.three {
+height: 300px;
+width: 200px;
+background-color: Violet;
+border: 2px dotted;
+}
